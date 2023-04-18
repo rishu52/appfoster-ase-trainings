@@ -1,0 +1,10 @@
+.forms {
+  height: 430px;
+  width: 90%;
+  background-color: lightblue;
+  margin-bottom: 50px;
+  border: 2px solid darkblue;
+}
+input {
+  height: 25px;
+}

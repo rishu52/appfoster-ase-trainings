@@ -1,0 +1,252 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patient Form</title>
+    <link rel="stylesheet" href="./patient.css" />
+  </head>
+  <body>
+    <div style="margin-left: 140px">
+      <form action="/action_page.php" style="padding-left: 35px">
+        <div class="forms" style="padding-left: 35px">
+          <h3 style="margin-left: 15px">Primary Details</h3>
+
+          <div style="margin-left: 543px; margin-bottom: 0px">
+            <p style="line-height: 1px">Valid Till</p>
+          </div>
+
+          <div style="display: flex">
+            <label for="">Medicare no</label> &emsp;&emsp;&emsp;&emsp;
+            <input type="number" />&nbsp;
+            <p style="margin-top: 5px"><b>/</b></p>
+            &nbsp; <input type="number" />&emsp;<input
+              type="date"
+            />&emsp;<input
+              style="background-color: lightgray; border: 1px solid"
+              type="text"
+            />
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="title">Title</label
+            >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <select name="title" style="width: 180px; height: 25px">
+              <option value="none">none</option>
+              <option value="all">all</option>
+            </select>
+          </div>
+          <div style="margin-left: 145px; margin-bottom: 0px; display: flex">
+            <p style="line-height: 1px">First Name,</p>
+            <p style="line-height: 1px; margin-left: 80px">Middle Name,</p>
+            <p style="line-height: 1px; margin-left: 80px">Last Name</p>
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Name</label
+            >&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" style="width: 500px" />
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Pref.Name</label>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="text" />
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">DOB</label
+            >&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input style="margin-top: 0px" type="checkbox" /><input
+              type="date"
+            />
+          </div>
+
+          <div style="display: flex; margin-bottom: 10px">
+            <label for="Sex">Sex</label
+            >&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input
+              name="fav_language"
+              type="radio"
+              value="male"
+              style="margin-top: -5px"
+            />
+              <label for="male">Male</label><br />
+             
+            <input
+              name="fav_language"
+              type="radio"
+              value="female"
+              style="margin-top: -5px"
+            />
+              <label for="female">Female</label><br />
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Family Name</label>&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="text" />&emsp;
+            <input type="text" placeholder="N" style="width: 40px" />&nbsp;
+            <input type="text" placeholder="I" style="width: 40px" />
+          </div>
+        </div>
+        <div
+          class="forms"
+          style="margin-bottom: 30px; height: 385; padding-left: 35px"
+        >
+          <h3 style="margin-left: 15px">Contact Details</h3>
+
+          <div style="margin-left: 145px; margin-bottom: 0px; display: flex">
+            <p style="line-height: 1px">Home</p>
+            <p style="line-height: 1px; margin-left: 150px">Work</p>
+          </div>
+          <div style="display: flex; margin-bottom: 10px">
+            <label for="">Phone</label
+            >&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" />
+            <input type="number" />
+          </div>
+          <div style="margin-left: 145px; margin-bottom: 0px; display: flex">
+            <p style="line-height: 1px">Mobile</p>
+            <p style="line-height: 1px; margin-left: 145px">Fax</p>
+          </div>
+
+          <div style="display: flex; margin-bottom: 10px; margin-left: 145px">
+            <input type="number" />
+            <input type="number" />
+          </div>
+          <div style="margin-left: 145px; margin-bottom: 0px; display: flex">
+            <p style="line-height: 1px">Next of Kin</p>
+            <p style="line-height: 1px; margin-left: 111px">Next of Kin Ph:</p>
+          </div>
+          <div style="display: flex; margin-bottom: 20px; margin-left: 145px">
+            <input type="text" />
+            <input type="text" />
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Emergency No</label>&emsp;&emsp;&emsp;&nbsp;
+            <input type="number" />
+          </div>
+
+          <div style="display: flex">
+            <label for="">Email</label
+            >&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" style="width: 300px" />
+          </div>
+        </div>
+        <div class="forms" style="height: 270px; padding-left: 35px">
+          <h3 style="margin-left: 15px">Residential Address</h3>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Address 1</label>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="text" style="width: 550px" />
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Address 2</label>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="text" style="width: 550px" />
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Suburb</label
+            >&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&nbsp;
+            <input type="text" />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <label for="">State</label>&emsp;&emsp;&emsp;
+            <select name="title " style="width: 200px">
+              <option value="none">Bihar</option>
+              <option value="all">Jharkhand</option>
+            </select>
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Postal Code</label>&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="number" />&emsp;
+            <input
+              type="text"
+              value="?"
+              style="width: 30px"
+            />&emsp;&emsp;&emsp; <label for="">Country</label>&emsp;&emsp;
+            <input type="text" style="width: 200px" />
+          </div>
+        </div>
+        <div class="forms" style="height: 100px; padding-left: 35px">
+          <h3 style="margin-left: 15px">Single Address</h3>
+          <div style="padding-left: 35px; margin-bottom: 40px; display: flex">
+            <label for=""
+              >Are mailing address and Residential address same?</label
+            >&nbsp; <input style="margin-top: -4px" type="checkbox" />Yes
+          </div>
+        </div>
+
+        <div class="forms" style="height: 270px; padding-left: 35px">
+          <h3 style="margin-left: 15px">Mailing Address</h3>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Address 1</label>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="text" style="width: 550px" />
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Address 2</label>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="text" style="width: 550px" />
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Suburb</label
+            >&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&nbsp;
+            <input type="text" />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <label for="">State</label>&emsp;&emsp;&emsp;
+            <select name="title " style="width: 200px">
+              <option value="none">Bihar</option>
+              <option value="all">Jharkhand</option>
+            </select>
+          </div>
+
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Postal Code</label>&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <input type="number" />&emsp;
+            <input
+              type="text"
+              value="?"
+              style="width: 30px"
+            />&emsp;&emsp;&emsp; <label for="">Country</label>&emsp;&emsp;
+            <input type="text" style="width: 200px" />
+          </div>
+        </div>
+        <div
+          class="forms"
+          style="
+            padding-top: 32px;
+            padding-left: 32px;
+            height: 250px;
+            width: 88%;
+          "
+        >
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">IHI number</label>&emsp;&emsp;&emsp;&nbsp;&nbsp;
+            <p style="margin-top: 4px">80036</p>
+            &emsp;&emsp;&nbsp;&nbsp;
+            <input type="number" style="width: 221px" />
+          </div>
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Number Status</label>&emsp;&emsp;&nbsp;
+            <input type="text" style="width: 300px" />
+          </div>
+          <div style="display: flex; margin-bottom: 20px">
+            <label for="">Record Status</label>&emsp;&emsp;&nbsp;&nbsp;
+            <input type="text" style="width: 300px" />
+          </div>
+          <div style="display: flex; margin-bottom: 40px">
+            <label for="">Last Updated</label>&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" style="width: 300px" />
+          </div>
+          <div style="display: flex; justify-content: space-evenly">
+            <button style="width: 200px">Submit</button>
+            <button type="reset" value="Reset" style="width: 200px">
+              Clear
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
