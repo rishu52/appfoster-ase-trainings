@@ -1,0 +1,49 @@
+
+ls
+git add task-8-Javascript
+git commit -m "task 8 done"
+git remote add origin https://github.com/rishu52/appfoster-ase-trainings
+git branch -M main
+git push -u origin main
+history
+git 
+history
+l
+ls -lart
+vi .bash_history
+history
+git
+history
+l
+cd Desktop
+cd ..
+cd Desktop
+cd ..
+cd Desktop/appfoster-ase-training
+ls
+cd task-9-cli
+mkdir test.txt
+ls
+rmdir test.txt
+ls
+touch test1.txt
+ls
+rm test1.txt
+ls
+touch test1.txt
+ls
+cp test1.txt test2.txt
+ls
+wc -l test2.txt
+wc -l test1.txt
+ls | wc -l test1.txt
+curl https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch
+ls
+curl https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch -L
+history
+node
+npm
+npm install prettier
+npx prettier
+history
+history -w historysaved
