@@ -1,8 +1,24 @@
+function handleDanger(){
+  let r=document.getElementById("dangerbtn");
+  r.remove();
+}
+
 function handleSplit() {
-  let num = document.getElementById("ino").value;
-  let t = document.getElementById("isplit").value;
+  let num = Number(document.getElementById("ino").value);
+  let t = Number(document.getElementById("isplit").value);
   if (num < t || num <= 0 || t <= 0) {
-    alert("Invalid Inputs,PLease Check");
+    var d = document.createElement("div");
+    d.setAttribute('id', 'dangerbtn');
+    d.style.width = "50px";
+    d.style.backgroundColor = "white";
+    d.style.height = "50px";
+    // d.innerHTML = `${arr1[i]}`;
+    d.style.marginTop="-94px";
+    d.style.marginLeft="100px";
+    d.innerHTML='<input class="btn btn-primary" type="button" value="Invalid Input" onclick="handleDanger()">'
+    document.getElementById("box").appendChild(d);
+
+    
   } else {
     let arr = Array.from({ length: t });
     let val = Math.floor(num / t);
